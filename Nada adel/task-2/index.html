@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>مطعم بيتزاية 🍕</title>
+  <style>
+    body {
+      direction: rtl;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding:0;
+      background-color: #fffaf4;
+      color: #333;
+    }
+
+    .hero {
+      background-color: #BC5533;
+      height: 400px;
+      width: 120%;
+      display: flex;
+      flex-direction: column;
+      align-items:center;
+      justify-content: center;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .hero img {
+      width: 440px;
+      border-radius: 15px;
+      margin-right: 10px;
+    }
+
+    .section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #e67e22;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    table, th, td {
+      border: 2px solid #ccc;
+    }
+
+    th, td {
+      padding: 10px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #f8d7b5;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      margin-top: 40px;
+    }
+
+    input, select {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+
+    .submit-btn {
+      background-color: #e67e22;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .submit-btn:hover {
+      background-color: #d35400;
+    }
+
+    footer {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="hero">
+    <img src="./بيتزا-1-scaled.jpg" alt="بيتزا لذيذة" >
+    <h1>أهلاً بيك في بيتزاية 🍕</h1>
+    <p>الطعم اللي هيخطف قلبك✨️</p>
+  </div>
+
+  <div class="section">
+    <h2>عن مطعم بيتزاية</h2>
+    <p>بيتزاية هو مطعم بيتزا متخصص بيقدم أشهى أنواع البيتزا الإيطالية والشرقية بخامات طازجة ووصفات مبتكرة. هدفنا نقدم تجربة أكل ممتعة لكل الزوار.</p>
+  </div>
+
+  <div class="section">
+    <h2>قائمة الطعام</h2>
+    <table>
+      <tr>
+        <th>الصنف</th>
+        <th>السعر</th>
+        <th>الحجم المتاح</th>
+      </tr>
+      <tr>
+        <td>مارجريتا</td>
+        <td>200 جنيه</td>
+        <td>صغير / وسط / كبير</td>
+      </tr>
+      <tr>
+        <td>ببروني</td>
+        <td>500 جنيه</td>
+        <td>وسط / كبير</td>
+      </tr>
+      <tr>
+        <td>خضار مشكل</td>
+        <td>400 جنيه</td>
+        <td>صغير / وسط</td>
+      </tr>
+      <tr>
+        <td>بيتزا فراخ</td>
+        <td>480 جنيه</td>
+        <td>وسط / كبير</td>
+      </tr>
+      <tr>
+        <td>بيتزا سجق</td>
+        <td>500 جنيه</td>
+        <td>وسط / كبير</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>اطلب الآن من بيتزاية 🔥</h2>
+    <form>
+      <div>
+        <label>الاسم:</label><br>
+        <input type="text" placeholder="اكتب اسمك">
+      </div>
+
+      <div>
+        <label>الإيميل:</label><br>
+        <input type="email"
+      </div>
+
+      <div>
+        <label>رقم الهاتف:</label><br>
+        <input type="tel" placeholder="010123*****">
+      </div>
+
+      <div>
+        <label>العنوان:</label><br>
+        <input type="text" 
+      </div>
+
+      <div>
+        <label>اختار الصنف:</label><br>
+        <select>
+          <option>مارجريتا</option>
+          <option>ببروني</option>
+          <option>بيتزا خضار</option>
+          <option>بيتزا فراخ</option>
+          <option>بيتزا سجق</option>
+        </select>
+      </div>
+
+      <div>
+        <button class="submit-btn" type="submit">أرسل الطلب</button>
+      </div>
+    </form>
+  </div>
+
+  <footer>
+    جميع الحقوق محفوظة &copy; بيتزاية 2025
+  </footer>
+
+</body>
+</html>

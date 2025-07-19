@@ -1,0 +1,78 @@
+ body{
+            text-align: center;
+            background-color:rgb(70, 205, 239);
+        }
+    .hero{
+        width: 100%;height: 500px;
+          background-size: cover;
+          background-position: center;
+        }  
+        .overlay{
+            background: rgba(red, green, blue, alpha);
+            height: 100%;
+            color: black;
+        }
+        section{
+            padding: 40px 60px;
+        }
+        .about{
+            margin: auto;
+            max-width: 1000px;
+        }
+        .table{
+              margin: auto;
+            max-width: 1000px;
+            width: 100%;
+            border-collapse: collapse;
+             border-radius: 5px ;
+            text-align: center;
+            border: 20px;
+        }
+          th{
+            background-color: rgb(70, 83, 231);
+        }
+        td{
+            background-color:rgb(69, 171, 244) ;
+        }
+          #name {
+            border-radius: 6px;
+            width: 200px;
+            height: 30px;
+            border-width: 2px;border-color: black;
+             border-style: solid ;
+        }
+        #email  {
+             border-radius: 6px;
+            width: 200px;
+            height: 30px;
+            border-width: 2px;border-color: black;
+             border-style: solid ;
+        }
+        #number {
+           border-radius: 6px;
+            width: 200px;
+            height: 30px;
+            border-width: 2px;border-color: black;
+             border-style: solid ;
+        }
+         #major{
+             border-radius: 6px;
+            width: 200px;
+            height: 30px;
+            border-width: 2px;border-color: black;
+             border-style: solid ;
+        }
+         #participate {
+          border-radius: 6px;
+            width: 60px;
+            height: 30px;
+            border-width: 2px;border-color: black;
+             border-style: solid ;  
+        }
+         #click {
+            border-radius: 6px;
+            width: 100px;
+            height: 30px;
+            border-width: 2px;border-color: black;
+             border-style: solid ;
+        }

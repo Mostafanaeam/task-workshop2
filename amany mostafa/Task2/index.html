@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>ساكورا كيتشن</title>
+  <style>
+    .container {
+      margin: 20px auto;
+      padding: 15px;
+      background: white;
+      border-radius: 8px;
+      width: 90%;
+      max-width: 400px;
+      text-align: center;
+    }
+
+    .image {
+      width: 100%;
+      border-radius: 8px;
+      object-fit: cover;
+    }
+
+    .table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+
+    .table th, .table td {
+      text-align: center;
+      padding: 10px;
+    }
+
+    .table th {
+      background-color: sandybrown;
+      color: black;
+    }
+
+    .table td {
+      background-color: white;
+      color: black;
+    }
+
+    button {
+      margin-top: 10px;
+      padding: 8px 16px;
+      background: goldenrod;
+      border: none;
+      border-radius: 5px;
+      color: white;
+    }
+
+    body {
+      text-align: center;
+      background-color: beige;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    input, select {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>ساكورا كيتشن</h2>
+    <img src="/IMG-20250710-WA0122.jpg" alt="ساكورا كيتشن" class="image">
+    <p>مرحبًا بكم في ساكورا كيتشن حيث تذوق الطعم الياباني الأصيل في قلب أسوان. نرحب بكم لتجربة فريدة من نوعها من الأطباق اليابانية التقليدية والحديثة.</p>
+  </div>
+  <div class="container">
+    <p>ساكورا كيتشن هو مطعم ياباني يقدم تجربة طعام فريدة ومميزة، حيث يلتقي الطعم الأصيل مع التقديم الحديث. نحن نهتم بتقديم أطباق يابانية تقليدية وحديثة، مع استخدام مكونات طازجة وعالية الجودة. هدفنا هو أن نأخذك في رحلة إلى قلب اليابان، من خلال كل قضمة ولقمة.</p>
+  </div>
+  <div class="container">
+    <table class="table" border="1" style="border: 2px solid saddlebrown;">
+      <tr>
+        <th>الطبق</th>
+        <th>السعر</th>
+        <th>الحجم</th>
+      </tr>
+      <tr>
+        <td>سوشي كومبو</td>
+        <td>150</td>
+        <td>صغير، وسط، كبير</td>
+      </tr>
+      <tr>
+        <td>رامن ياباني</td>
+        <td>120</td>
+        <td>عادي، كبير</td>
+      </tr>
+      <tr>
+        <td>تيماكي</td>
+        <td>80</td>
+        <td>2 قطع، 4 قطع</td>
+      </tr>
+      <tr>
+        <td>ياكيتوري دجاج</td>
+        <td>100</td>
+        <td>3 قطع، 6 قطع</td>
+      </tr>
+      <tr>
+        <td>بيف ترياكي</td>
+        <td>180</td>
+        <td>عادي، كبير</td>
+      </tr>
+      <tr>
+        <td>إدامامي</td>
+        <td>60</td>
+        <td>عادي</td>
+      </tr>
+    </table>
+  </div>
+  <div class="container">
+    <form>
+  <div class="form-group">
+    <label for="name">الاسم</label>
+    <input type="text" id="name" name="name" placeholder="الاسم" required>
+  </div>
+  <div class="form-group">
+    <label for="email">الإيميل</label>
+    <input type="email" id="email" name="email" placeholder="الإيميل" required>
+  </div>
+  <div class="form-group">
+    <label for="phone">رقم الهاتف</label>
+    <input type="tel" id="phone" name="phone" placeholder="رقم الهاتف" required>
+  </div>
+  <div class="form-group">
+    <label for="address">العنوان</label>
+    <input type="text" id="address" name="address" placeholder="العنوان" required>
+  </div>
+  <div class="form-group">
+    <label for="category">اختار صنف</label>
+    <select id="category" name="category" required>
+      <option value="">اختار صنف</option>
+      <option value="سوشي كومبو">سوشي كومبو</option>
+      <option value="رامن ياباني">رامن ياباني</option>
+      <option value="تيماكي">تيماكي</option>
+      <option value="ياكيتوري دجاج">ياكيتوري دجاج</option>
+      <option value="بيف ترياكي">بيف ترياكي</option>
+      <option value="إدامامي">إدامامي</option>
+    </select>
+  </div>
+  <button type="submit" name="submit">إرسال</button>
+</form>
+  </div>
+</body>
+</html>
+
+

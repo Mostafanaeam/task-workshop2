@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Plantopia Exhibition</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #f6f5ef;
+      color: #2e4f36;
+    }
+
+    header {
+      background-color: #6c9a8b;
+      color: white;
+      padding: 40px 20px;
+      white-space: nowrap;
+      font-size: 12px;
+      text-align: center;
+    }
+
+    section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .about {
+      background-color: #e0d9c2;
+      border-radius: 10px;
+      margin: 20px auto;
+      max-width: 800px;
+      padding: 20px;
+    }
+
+    .highlight {
+      background-color: #d3e3d1;
+      padding: 20px;
+      margin: 30px ;
+      max-width: 600px;
+      border-radius: 10px;
+      font-weight: bold;
+    }
+
+    .The invitation {
+      margin-top: 30px;
+      font-size: 18px;
+    }
+
+    .button {
+      display: inline-block;
+      background-color: #3d5a40;
+      color: white;
+      padding: 12px 25px;
+      margin-top: 15px;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+
+    .button:hover {
+      background-color: #2c3f30;
+    }
+
+    .images {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-top: 30px;
+    }
+
+    .images img {
+      width: 350px;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+
+    .agenda h2,
+    .register h2,
+    .sponsors h2 {
+      text-align: center;
+      margin-top: 40px;
+      color: #3d5a40;
+    }
+
+    table {
+      margin: 0 auto;
+      border-collapse: collapse;
+      width: 80%;
+      max-width: 600px;
+      background-color: #fff;
+      border: 1px solid #ccc;
+    }
+   table tr:first-child {
+     background-color: #cfe8cc;
+     color: #2e4f36;
+    }
+   
+    th, td {
+      padding: 12px;
+      border: 1px solid #ccc;
+      text-align: center;
+    }
+
+    form {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    form input, form select {
+      width: 250px;
+      padding: 10px;
+      border: 1px solid #aaa;
+      border-radius: 5px;
+    }
+
+    .sponsors {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-top: 20px;
+     
+    }
+.sponsors h2 {
+     font-size: 25px;
+}
+    .sponsors img {
+      width: 100px;
+      height: auto;
+      border-radius: 6px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background-color: #2e4f36;
+      color: #eee;
+      text-align: center;
+      padding: 20px;
+      margin-top: auto;
+    }
+
+    footer a {
+      color: #cce7d0;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🌿 Welcome to Plantopia 🌿</h1>
+  </header>
+
+  <section class="about">
+    <p><strong>Plantopia</strong> <br>
+    is an exhibition of rare and unique plants collected by specialists from across Egypt, under the supervision of the Egyptian Ministry of Agriculture.</p>
+  </section>
+
+  <div class="images">
+    <img src="./pexels-daniel-1055408.jpg" alt="Plant 1">
+    <img src="./pexels-gochrisgoxyz-1477166.jpg" alt="Plant 2">
+    <img src="./pexels-mdsnmdsnmdsn-788485.jpg" alt="Plant 3">
+    <img src="../pexels-scottwebb-305827.jpg" alt="Plant 4">
+  </div>
+
+  <section>
+    <div class="highlight">
+      Exhibition Opening: 15/8/2025<br>
+      Giza, Egypt
+    </div>
+
+  <section class="agenda">
+    <h2>📍Activity Schedule</h2>
+    <table>
+      <tr>
+        <th>Activity</th>
+        <th>Time</th>
+        <th>Speaker</th>
+      </tr>
+      <tr>
+        <td>Opening Ceremony</td>
+        <td>10:00 AM</td>
+        <td>Dr. Amina Samy</td>
+      </tr>
+      <tr>
+        <td>Rare Plant Tour</td>
+        <td>11:00 AM</td>
+        <td>Eng. Yasmin Ahmed</td>
+      </tr>
+      <tr>
+        <td>Plant Care Tips</td>
+        <td>12:30 PM</td>
+        <td>Dr. Youssef Ali</td>
+      </tr>
+    </table>
+  </section>
+<br>
+<br>
+<div class="The invitation">
+      We are honored to invite you to explore our rare plants and enjoy the exhibition's atmosphere and competitions.
+      <br>
+    </div>
+    
+  <section class="register">
+    <h2>📝 Register Now</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required><br><br>
+      <input type="email" placeholder="Your Email" required><br><br>
+      <input type="text" placeholder="Your Major"><br><br>
+      <label>Will you participate?</label><br>
+      <select>
+        <option value="">Select an option</option>
+        <option>Yes</option>
+        <option>No</option>
+        <option>Maybe</option>
+      </select><br><br>
+      <button type="submit" class="button">Submit</button>
+    </form>
+  </section>
+
+  <section class="sponsors">
+    <h2>🤝🏻 Our Partners</h2>
+    <div class="sponsors">
+      <img src="../Screenshot_٢٠٢٥٠٧١٦-٠١١٧٠٢_ChatGPT.jpg" alt="Partner 1">
+      <img src="../Screenshot_٢٠٢٥٠٧١٦-٠١١٧٣٩_ChatGPT.jpg" alt="Partner 2">
+      <img src="../Screenshot_٢٠٢٥٠٧١٦-٠١١٧٤٤_ChatGPT.jpg" alt="Partner 3">
+    </div>
+  </section>
+
+  <footer>
+    <p>📞 Contact: 010233*****</p>
+    <p>🌐 Facebook: <a href="https://facebook.com" target="_blank">facebook.com</a></p>
+    <p>© 2025 Plantopia. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

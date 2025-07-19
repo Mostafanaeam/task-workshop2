@@ -1,0 +1,69 @@
+ body{
+            text-align: center;
+            background-color: rgb(180, 205, 234);
+        }
+    .hero{width: 100%;height: 500px;
+          background-size: cover;
+          background-position: center;
+        }
+        .section {
+            background-color: rgb(127, 218, 246);
+            padding: 50px;
+            text-align: center;
+        }
+        .section menu {
+             background-color: aqua;
+        }
+        table {
+            border-radius: 5px ;
+            text-align: center;
+            border: 20px;
+        }
+        th{
+            background-color: rgb(70, 83, 231);
+        }
+        td{
+            background-color:rgb(69, 171, 244) ;
+        }
+        #name {
+            border-radius: 6px;
+            width: 200px;
+            height: 30px;
+            border-width: 2px;border-color: black;
+             border-style: solid ;
+        }
+        #email  {
+             border-radius: 6px;
+            width: 200px;
+            height: 30px;
+            border-width: 2px;border-color: black;
+             border-style: solid ;
+        }
+        #number {
+ border-radius: 6px;
+            width: 200px;
+            height: 30px;
+            border-width: 2px;border-color: black;
+             border-style: solid ;
+        }
+        #address {
+             border-radius: 6px;
+            width: 200px;
+            height: 30px;
+            border-width: 2px;border-color: black;
+             border-style: solid ;
+        }
+        #dish {
+          border-radius: 6px;
+            width: 200px;
+            height: 30px;
+            border-width: 2px;border-color: black;
+             border-style: solid ;  
+        }
+        #click {
+            border-radius: 6px;
+            width: 100px;
+            height: 30px;
+            border-width: 2px;border-color: black;
+             border-style: solid ;
+        }

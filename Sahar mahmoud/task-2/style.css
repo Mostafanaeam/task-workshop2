@@ -1,0 +1,36 @@
+body {
+ text-align: center;
+ background-color: dimgray;
+}
+th {
+    background-color: aliceblue;
+    color: darkolivegreen;
+}
+td {
+    background-color: lightgrey ;
+    color: darkred;
+}
+p {
+    color: black;
+}
+h1 {
+    background-color: aliceblue;
+    color: gray;
+}
+h2 {
+    color: black;
+}
+h3 {
+    background-color: darkgray;
+    color: saddlebrown;
+}
+input {
+  width: 90%;
+  height: 40px;
+  border-radius: 6px;
+  background-color: lightgrey;
+}
+ .three {
+    width: 50%;
+    background-color: gray;
+}

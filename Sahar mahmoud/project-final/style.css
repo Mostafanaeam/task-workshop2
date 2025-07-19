@@ -1,0 +1,72 @@
+div {
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.header1 {
+  height: 500px;
+  width: 100%;
+  flex-direction: colum;
+  background-image: url("https://i.postimg.cc/85b3F6b2/IMG-20250713-145923.jpg");
+}
+body {
+  background-color: darkblue;
+  color: white ;
+}
+table {
+  border-block-color: white;
+}
+th {
+  color: lightblue;
+}
+h1 {
+  background-color: mintcream;
+  color: midnightblue;
+  margin-right: 100px;
+  padding-left: 30px;
+  border-radius: 50px;
+}
+h2 {
+  background-color: mintcream;
+  color: midnightblue;
+  margin-right: 100px;
+  padding-left: 30px;
+  border-top-right-radius: 30px;
+}
+h3 {
+  background-color: mintcream;
+  color: midnightblue;
+  margin-right: 150px;
+  padding-left: 30px;
+  border-top-right-radius: 30px;
+}
+h4 {
+  background-color: mintcream;
+  color: midnightblue;
+  padding-left: 20px;
+  margin-right: 170px;
+  border-top-right-radius: 30px;
+}
+#name {
+  border-color: dimgray darkblue dimgray darkblue;
+  border-style: solid;
+}
+#email {
+  border-style: solid;
+  border-color: darkblue dimgray darkblue dimgray;
+}
+#major {
+  border-style: solid;
+  border-color: dimgray darkblue;
+}
+footer {
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+footer a {
+  color: lightblue;
+}
